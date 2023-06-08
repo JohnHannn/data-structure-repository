@@ -26,5 +26,9 @@ int main(){
   current->data = 3;
   current->link = NULL; // end of a linked list
   
+  current = (struct node *)malloc(size_of(struct node)); // alloct a node memory for one node
+  current->data = 90;
+  head->link->link = current; 
+  
   return 0;
 }
