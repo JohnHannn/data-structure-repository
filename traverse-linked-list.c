@@ -44,5 +44,7 @@ int main(){
   current->data = 90;
   head->link->link = current; 
   
+  printf(%d, node_count(head)); // print the num of nodes
+  
   return 0;
 }
